@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@400;700&display=swap');
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Outfit", sans-serif;
+        background-color: lightgrey;
+
+      }
+
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        width: 350px;
+        height: 500px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        overflow: hidden;
+        box-shadow: 0 0 5px grey;
+        background-color: hsl(0, 0%, 100%);
+      }
+
+      .image-card {
+        width: 80%;
+        height: auto;
+        margin: 25px 35px 0;
+        border-radius: 15px;
+      }
+
+      .card h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.4rem;
+        padding: 20px;
+        margin: 0 15px;
+      }
+
+      .card p {
+        text-align: center;
+        font-size: 15px;
+        padding: 15px;
+        margin: 0 15px;
+        color: gray
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="./images/image-qr-code.png" alt=" QR-code-Image" class="image-card">
+        <h2>Improve ypur front-end skills by building projects</h2>
+        <p>scan the QR code to visit the frontend mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+
+  </body>
+
+</html>
